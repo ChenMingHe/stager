@@ -1,4 +1,4 @@
-source "http://ruby.taobao.org/"
+source :rubygems
 
 gem 'eventmachine', :git => 'https://github.com/cloudfoundry/eventmachine.git', :branch => 'release-0.12.11-cf'
 gem 'nats', '0.4.24'
